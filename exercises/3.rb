@@ -15,3 +15,11 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+my_list = ["beer", "eggs", "bacon"]
+# puts my_list
+
+friend_list =["beer", "cookies", "apples"]
+# puts friend_list
+
+shared_list = my_list + friend_list
+puts shared_list.sort.uniq
